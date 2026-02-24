@@ -1,0 +1,32 @@
+citHeader("To cite package 'polySegratioMM' in publications use:")
+     
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
+vers <- paste("R package version", meta$Version)
+
+bibentry(
+  bibtype = "Article",
+  title = "Bayesian estimation of marker dosage in sugarcane and other autopolyploids",
+  author = c(person(c("Peter", "J."), "Baker"),
+             person(c("Phil"), "Jackson"), 
+            person(c("Karen"), "Aitken")),
+  journal = "TAG Theoretical and Applied Genetics",
+  year = "2010",
+  volume = "120",
+  pages = "1653--1672",
+  url =		 "https://doi.org/10.1007/s00122-010-1283-z",
+  doi =		 "10.1007/s00122-010-1283-z",
+  textVersion="Baker, P., Jackson, P. & Aitken, K. Theor Appl Genet (2010) 120: 1653-1672. https://doi.org/10.1007/s00122-010-1283-z"
+)
+
+bibentry(
+  bibtype="Manual",
+  title = "polySegratioMM Bayesian mixture models for marker dosage in autopolyploids",
+  author = c(person(c("Peter", "J"), "Baker")),
+  year = year,             
+  note = vers,             
+  textVersion =            
+    paste("Peter J Baker (",
+          year,
+          "). polySegratioMM: Bayesian mixture models for marker dosage in autopolyploids. ",
+          vers, ".", sep="" ))
+
