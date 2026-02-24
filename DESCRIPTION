@@ -17,6 +17,6 @@ URL: https://github.com/petebaker/polysegratiomm
 BugReports: https://github.com/petebaker/polysegratiomm/issues
 License: GPL-3
 NeedsCompilation: no
-Packaged: 2026-02-24 15:21:39 UTC; pete
+Packaged: 2026-02-24 16:41:38 UTC; pete
 Author: Peter Baker [aut, cre] (ORCID: <https://orcid.org/0000-0002-1241-7263>)
 Maintainer: Peter Baker <drpetebaker@gmail.com>
