@@ -19,6 +19,6 @@ BugReports: https://github.com/petebaker/polysegratiomm/issues
 License: GPL-3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2026-02-25 04:43:48 UTC; pete
+Packaged: 2026-02-25 04:50:20 UTC; pete
 Author: Peter Baker [aut, cre] (ORCID: <https://orcid.org/0000-0002-1241-7263>)
 Maintainer: Peter Baker <drpetebaker@gmail.com>

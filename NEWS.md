@@ -5,6 +5,7 @@
 	Fixed CITATION file to replace old style personList()
 	Replaced all if() checking class() with inherits() to remove Warnings
 	Changed .Rd files to not leave files 'test*.*' after running examples
+	Converted Sweave .Rnw vignette to RMarkdown .Rmd file
 
 # polySegratioMM 0.6-4
 	* 2014-03-06	0.6-4 Update NAMESPACE to conform to upcoming R 3.10
