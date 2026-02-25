@@ -6,7 +6,7 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "a4paper")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("fancyhdr" "") ("fontenc" "T1") ("mathpazo" "sc") ("natbib" "round") ("graphicx" "") ("url" "")))
+                     '(("fontenc" "T1") ("mathpazo" "sc") ("fancyhdr" "") ("natbib" "round") ("graphicx" "") ("url" "")))
    (add-to-list 'LaTeX-verbatim-environments-local "Verbatim")
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
@@ -18,8 +18,6 @@
     "article"
     "art10"
     "fancyhdr"
-    "fontenc"
-    "mathpazo"
     "natbib"
     "graphicx"
     "url")
