@@ -1,6 +1,5 @@
 `print.dosagesMCMC` <-
-function(x, ..., index.sample=20)
-{
+function(x, ..., index.sample=20) {
   cat("Dosages for chain:", x$chain,"\n")
   cat("Thresholds set at:\n")
   print(x$thresholds)

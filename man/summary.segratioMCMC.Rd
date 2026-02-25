@@ -11,7 +11,7 @@
   the spectral density at 0. For details see \code{summary.mcmc}
 }
 \usage{
-\method{summary}{segratioMCMC}(object, ..., row.index = c(1:10),
+\method{summary}{segratioMCMC}(object, \dots, row.index = c(1:10),
  var.index = NULL,
  marker.index = c(1:8))
 }

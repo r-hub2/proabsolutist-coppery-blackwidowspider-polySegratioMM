@@ -7,8 +7,8 @@
  Print details and timing of \code{JAGS} run and summaries of results 
 }
 \usage{
-\method{print}{runJags}(x, ...)
-\method{print}{runJagsWrapper}(x, ...)
+\method{print}{runJags}(x, \dots)
+\method{print}{runJagsWrapper}(x, \dots)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

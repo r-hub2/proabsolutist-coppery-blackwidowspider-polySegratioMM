@@ -7,9 +7,9 @@
   Prints objects of S3 class \code{dosagesMCMC} or \code{segratioMCMC}
 }
 \usage{
-\method{print}{dosagesMCMC}(x, ..., index.sample = 20)
+\method{print}{dosagesMCMC}(x, \dots, index.sample = 20)
 
-\method{print}{segratioMCMC}(x, ..., row.index = c(1:10), var.index = c(1:6), marker.index
+\method{print}{segratioMCMC}(x, \dots, row.index = c(1:10), var.index = c(1:6), marker.index
  = c(1:8), chain = 1)
 }
 %- maybe also 'usage' for other objects documented here.
